@@ -1,0 +1,53 @@
+.userinfoFrame{
+  padding: 5%;
+  height: 100%;
+  background-color: #e8eff7;
+}
+.userinfoFrame_form{
+ height: 100%;
+ /* background-color: #c5c0fd; */
+}
+
+.col-35 {
+  float: left;
+  width: 35%;
+  margin-top: 10px;
+}
+
+.col-65 {
+  float: left;
+  width: 65%;
+  margin-top: 6px;
+}
+
+.userinfo_label{
+
+  font-weight: bold;
+  font-kerning: auto;
+  font-variant: small-caps;
+  padding: 15px 0;
+  padding-left: 30px;
+}
+.userinfo_form{
+
+}
+.userinfo_text{
+  padding: 15px 0;
+}
+input{
+  width:80%;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 50%;
+  font-size: 16px;
+}
+.user_button{
+  padding-left: 70%;
+}

@@ -1,0 +1,53 @@
+{% extends 'univs/base.html' %}
+
+{% block title %} User Info {% endblock %}
+
+{% block content %}
+<div class="userinfoFrame">
+  <div class="userinfoFrame_form">
+    <form class="userinfo_form" action='/getpassword/' method="post">
+        {% csrf_token %}
+        <!--  -->
+        <div class="col-35 userinfo_label">
+           Room name
+        </div>
+        <div class="col-65 userinfo_text">
+          <input type="text" name="roomname" value={{roomname}} readonly>
+        </div>
+
+        <div class="col-35 userinfo_label">
+           Reserve time
+        </div>
+        <div class="col-65 userinfo_text">
+          <input type="text" name="roomtime" value={{roomtime}} readonly>
+        </div>
+
+        <div class="col-35 userinfo_label">
+           User name
+        </div>
+        <div class="col-65 userinfo_text">
+          <input type="text" name="username">
+        </div>
+
+        <div class="col-35 userinfo_label">
+           User email
+        </div>
+        <div class="col-65 userinfo_text">
+          <input type="text" name="useremail">
+        </div>
+
+        <div class="col-35 userinfo_label">
+           User department
+        </div>
+        <div class="col-65 userinfo_text">
+          <input type="text" name="userdepartment">
+        </div>
+        <input type="hidden" name="use" value="0">
+          <div class="user_button">
+            <input type="submit" value="Submit">
+          </div>
+        </div>
+    </form>
+  </div>
+</div>
+{% endblock %}

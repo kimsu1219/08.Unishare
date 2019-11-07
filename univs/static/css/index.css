@@ -1,0 +1,126 @@
+div {
+  font-size: 25px;
+}
+
+body{
+  width:100%;
+}
+.room{
+  background-color: lightpink;
+  font-size: 25px;
+}
+.univ_frame{
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  opacity: 70%;
+}
+.univ_frame_menu{
+  width: 100%;
+  /* height: 15%; */
+  background-color: black;
+  /* opacity: 70%; */
+}
+.univ_frame_menu_frame{
+  height: 100%;
+}
+.univ_frame_menu_logo{
+  font-style: oblique;
+  font-weight: bold;
+  color: white;
+}
+
+.univ_frame_menu_main{
+  font-style: oblique;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+
+.univ_frame_menu_mypage{
+  font-style: oblique;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.univ_frame_content{
+    /* width: 100%; */
+    height: 100%;
+}
+/* room_menu */
+.menu_roomframe{
+  /* width: 100%; */
+  height: 100%;
+  background-color: #ccbdbd;
+}
+.menu_roomframe_content{
+  width: 70%;
+  height: 100%;
+  margin: 0 15%;
+  background-color: #9fc0e1;
+}
+.menu_roomframe_content_frame{
+  /* margin: 20px; */
+  height: 50%;
+  background-color: lightpink;
+}
+.menu_roomframe_content_101{
+  height: 80%;
+}
+.menu_roomframe_content_102{
+  height: 80%;
+}
+.menu_roomframe_content_103{
+  height: 80%;
+}
+.menu_roomframe_content_101_square{
+  width: 60%;
+  height: 60%;
+  background-color:crimson;
+  margin: auto;
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 15%;
+
+}
+.menu_roomframe_content_102_square{
+  width: 60%;
+  height: 60%;
+  background-color:crimson;
+  margin: auto;
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+.menu_roomframe_content_103_square{
+  width: 60%;
+  height: 60%;
+  background-color:crimson;
+  margin: auto;
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 15%;
+
+}
+.menu_roomframe_content_text{
+  height: 50%;
+}
+.menu_roomframe_content_text_101{
+
+}
+.menu_roomframe_content_text_102{
+
+}
+.menu_roomframe_content_text_103{
+
+}
+/*  All */
+.row_margin{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.col_padding{
+  padding-left: 0px;
+  padding-right: 0px;
+}
