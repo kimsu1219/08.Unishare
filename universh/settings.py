@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'universh.wsgi.application'
 DATABASES = {
     'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'univershare',
-            'USER': 'song',
-            'PASSWORD': 'tmdrl001!',
+            'NAME': '',
+            'USER': '',
+            'PASSWORD': '!',
             'PORT': '3306',
-            'HOST': 'database-us.c4cpwrzqucnl.us-east-2.rds.amazonaws.com',
+            'HOST': ',
             'OPTIONS': {
                 'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
             },
